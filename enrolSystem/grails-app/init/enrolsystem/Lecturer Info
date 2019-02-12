@@ -1,0 +1,19 @@
+def ezio=new
+Lecturer(
+fullname:'Ezio Auditore Di Ferenze',
+post:'Lecturer',
+subject:'Computing',
+lecturerEmaiul:'italianstallion@gmail.com',
+office: 'C555',
+bio:"' He'll stab you up with a hidden blade if he doesn't like you.'"
+).save()
+
+def shepard=new
+Lecturer(
+fullname:'Commander Shepard',
+post:'Lecturer',
+subject:'Computing',
+lecturerEmaiul:'thetruereaper@gmail.com',
+office: 'C554',
+bio:"' I'm Commander Shepard and this is my favourite store on the Citadel"'
+).save()
